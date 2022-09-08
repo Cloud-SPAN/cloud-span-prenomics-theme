@@ -2,11 +2,11 @@
 ---
 {% include base_path.html %}
 {% include gh_variables.html %}
-{% include google-analytics.html %}
 
 <!doctype html>
 <html lang="en">
   <head>
+    {% include google-analytics.html %}
     <script type="application/ld+json">
       {{ page.bioschemas | jsonify }}
     </script>
